@@ -1,0 +1,14 @@
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\CC-Graph.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\CC-Graph.AssemblyInfoInputs.cache
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\CC-Graph.AssemblyInfo.cs
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\CC-Graph.csproj.CoreCompileInputs.cache
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\bin\Debug\net6.0\CC-Graph.exe
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\bin\Debug\net6.0\CC-Graph.deps.json
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\bin\Debug\net6.0\CC-Graph.runtimeconfig.json
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\bin\Debug\net6.0\CC-Graph.dll
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\bin\Debug\net6.0\CC-Graph.pdb
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\CC-Graph.dll
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\refint\CC-Graph.dll
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\CC-Graph.pdb
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\CC-Graph.genruntimeconfig.cache
+C:\Users\Stand By\source\repos\alaaabusalem\Graph\CC-Graph\CC-Graph\obj\Debug\net6.0\ref\CC-Graph.dll
