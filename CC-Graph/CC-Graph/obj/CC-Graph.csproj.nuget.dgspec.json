@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stand By\\source\\repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj": {}
+    "C:\\Users\\Stand By\\Source\\Repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stand By\\source\\repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj": {
+    "C:\\Users\\Stand By\\Source\\Repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stand By\\source\\repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj",
+        "projectUniqueName": "C:\\Users\\Stand By\\Source\\Repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj",
         "projectName": "CC-Graph",
-        "projectPath": "C:\\Users\\Stand By\\source\\repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj",
+        "projectPath": "C:\\Users\\Stand By\\Source\\Repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\CC-Graph.csproj",
         "packagesPath": "C:\\Users\\Stand By\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stand By\\source\\repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\obj\\",
+        "outputPath": "C:\\Users\\Stand By\\Source\\Repos\\alaaabusalem\\Graph\\CC-Graph\\CC-Graph\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stand By\\AppData\\Roaming\\NuGet\\NuGet.Config",

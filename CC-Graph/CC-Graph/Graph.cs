@@ -20,16 +20,21 @@ namespace CC_Graph
 	{
 		public int Weight { get; set; }
 		public Vertex<T> Vertex { get; set; }
+
 	}
 	public class Graph<T>
 	{
 		public Dictionary<Vertex<T>, List<Edge<T>>> AdjacenceyList { get; set; }
+		public Dictionary<T, Vertex<T>> Vertices { get; set; }
+
 
 		private int _size = 0;
 
 		public Graph()
 		{
 			AdjacenceyList = new Dictionary<Vertex<T>, List<Edge<T>>>();
+			Vertices = new Dictionary<T, Vertex<T>>();
+
 		}
 
 		public Vertex<T> AddVertex(T vertex)
@@ -37,6 +42,7 @@ namespace CC_Graph
 			Vertex<T> node = new Vertex<T>(vertex);
 
 			AdjacenceyList.Add(node, new List<Edge<T>>());
+			Vertices.Add(vertex, node);
 
 			_size++;
 
@@ -116,6 +122,10 @@ namespace CC_Graph
 				queue.Dequeue();
 			}
 			return visited;
+		}
+		public bool Contains(Vertex<T> vertex)
+		{
+			return AdjacenceyList.ContainsKey(vertex);
 		}
 	}
 }

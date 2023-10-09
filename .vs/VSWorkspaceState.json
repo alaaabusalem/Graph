@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CC-Graph",
+    "\\CC-Graph\\CC-Graph"
   ],
+  "SelectedNode": "\\CC-Graph\\CC-Graph\\Graph.cs",
   "PreviewInSolutionExplorer": false
 }
