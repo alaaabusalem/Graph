@@ -96,5 +96,26 @@ namespace CC_Graph
 		{
 			return _size;
 		}
+		public List<Vertex<T>> BreadthFirst(Vertex<T> node)
+		{
+			Queue<Vertex<T>> queue = new Queue<Vertex<T>>();
+			List<Vertex<T>> visited = new List<Vertex<T>>();
+			queue.Enqueue(node);
+			while (queue.Count > 0)
+			{
+				Vertex<T> nodeToAdd = queue.Peek();
+
+				visited.Add(nodeToAdd);
+				foreach (var item in AdjacenceyList[nodeToAdd])
+				{
+					if (!visited.Contains(item.Vertex))
+					{
+						queue.Enqueue(item.Vertex);
+					}
+				}
+				queue.Dequeue();
+			}
+			return visited;
+		}
 	}
 }
