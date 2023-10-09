@@ -127,5 +127,35 @@ namespace CC_Graph
 		{
 			return AdjacenceyList.ContainsKey(vertex);
 		}
+		public List<Vertex<T>> DepthFirst(Vertex<T> node)
+		{
+			Stack<Vertex<T>> stack = new Stack<Vertex<T>>();
+			List<Vertex<T>> visited = new List<Vertex<T>>();
+			HashSet<Vertex<T>> visitedSet = new HashSet<Vertex<T>>();
+
+			stack.Push(node);
+
+			while (stack.Count > 0)
+			{
+				Vertex<T> current = stack.Pop();
+
+				if (!visitedSet.Contains(current))
+				{
+					visited.Add(current);
+					visitedSet.Add(current);
+
+					foreach (var edge in AdjacenceyList[current])
+					{
+						if (!visitedSet.Contains(edge.Vertex))
+						{
+							stack.Push(edge.Vertex);
+						}
+					}
+				}
+			}
+
+			return visited;
+		}
+
 	}
 }
